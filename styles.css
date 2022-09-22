@@ -1,0 +1,68 @@
+
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: hsl(30, 36%, 92%);
+  padding: 140px;
+
+}
+button{
+  display: block;
+  font-family: "Montserrat";
+}
+#container{
+  margin: auto;
+}
+#title{
+  letter-spacing: 3px;
+  font-family: "Montserrat";
+  font-weight:500
+}
+
+h2{
+  font-family: "Fraunces";
+  font-weight: 900;
+  line-height: 0.9;
+  color: hsl(212, 21%, 14%);
+}
+
+#description{
+  margin-top: 25px;
+  color: hsl(228, 12%, 48%);
+}
+#price{
+  color: hsl(158, 36%, 37%);
+  font-weight: bold;
+  display: inline-block;
+}
+#before-price{
+  display: inline-block;
+  margin-left: 20px;
+  text-decoration: line-through;
+  color: hsl(228, 12%, 48%);
+
+}
+
+#img2{
+   display: none;
+}
+
+@media(max-width: 500px){ 
+   #img1{
+     display: none;
+   }
+
+   #img2{
+     display: block;
+   }
+
+   h2{
+     font-family: "Fraunces";
+     font-weight: 900;
+     line-height: 0.9;
+
+     color: hsl(212, 21%, 14%);}
+
+
+}
