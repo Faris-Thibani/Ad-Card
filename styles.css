@@ -5,14 +5,13 @@ body{
   align-items: center;
   background-color: hsl(30, 36%, 92%);
   padding: 140px;
+  min-height: 100vh;
 
 }
 button{
   display: block;
   font-family: "Montserrat";
 }
-#container{
-  margin: auto;
 }
 #title{
   letter-spacing: 3px;
@@ -48,7 +47,7 @@ h2{
    display: none;
 }
 
-@media(max-width: 500px){ 
+@media(max-width: 500px){
    #img1{
      display: none;
    }
